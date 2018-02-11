@@ -1,0 +1,11 @@
+CREATE DATABASE Events
+use Events
+CREATE TABLE Events(
+Id INT IDENTITY NOT NULL,
+Name VARCHAR(100) NOT NULL,
+Location VARCHAR(30) NOT NULL,
+BeginningDate DATETIME NOT NULL,
+EndDate DATETIME NOT NULL,
+PRIMARY KEY (Id)
+);
+select * from Events
